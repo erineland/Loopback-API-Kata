@@ -1,0 +1,32 @@
+{
+  "name": "Thing",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "note": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

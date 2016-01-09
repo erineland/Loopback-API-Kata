@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "greyMatterBackendDb": {
+    "name": "greyMatterBackendDb",
+    "connector": "mongodb",
+    "database": "3yp_db"
+  }
+}
