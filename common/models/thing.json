@@ -21,8 +21,8 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "type": "object"
+    "imagePath": {
+      "type": "string"
     }
   },
   "validations": [],
