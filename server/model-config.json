@@ -35,5 +35,9 @@
   "Thing": {
     "dataSource": "greyMatterBackendDb",
     "public": true
+  },
+  "Patient": {
+    "dataSource": "db",
+    "public": true
   }
 }
