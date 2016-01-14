@@ -39,5 +39,9 @@
   "Patient": {
     "dataSource": "db",
     "public": true
+  },
+  "Carer": {
+    "dataSource": "db",
+    "public": true
   }
 }
