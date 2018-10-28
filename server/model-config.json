@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "greyMatterBackendDb"
+    "dataSource": "greyMatterBackendDb",
+    "public" : false
   },
   "AccessToken": {
     "dataSource": "greyMatterBackendDb",
@@ -36,12 +37,14 @@
     "dataSource": "greyMatterBackendDb",
     "public": true
   },
-  "Patient": {
-    "dataSource": "db",
-    "public": true
+  "Email": {
+    "dataSource": "emailDs"
   },
-  "Carer": {
-    "dataSource": "db",
-    "public": true
+  "appUser": {
+    "dataSource": "greyMatterBackendDb",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": false
+    }
   }
 }

@@ -1,0 +1,89 @@
+{
+  "name": "appUser",
+  "base": "User",
+  "idInjection": true,
+  "properties": {
+    "showTutorials": {
+      "type": "boolean",
+      "required": false
+    },
+    "patientConnected": {
+      "type": "boolean",
+      "required": false
+    },
+    "receivedInvitations": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "connectedPatientUserId": {
+      "type": "string",
+      "required": false
+    },
+    "firstName": {
+      "type": "string",
+      "required": false
+    },
+    "lastName": {
+      "type": "string",
+      "required": false
+    },
+    "carerConnected": {
+      "type": "boolean",
+      "required": false
+    },
+    "homeAddress": {
+      "type": "object",
+      "required": false
+    },
+    "maritalStatus": {
+      "type": "string",
+      "required": false
+    },
+    "dateOfBirth": {
+      "type": "date",
+      "required": false
+    },
+    "spouse": {
+      "type": "string",
+      "required": false
+    },
+    "children": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "connectedCarers": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "profilePicUrl": {
+      "type": "string"
+    },
+    "invitationsSent": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "userType": {
+      "type" : "string",
+      "required" : false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "accessType": "READ",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": []
+}

@@ -7,5 +7,24 @@
     "database": "3yp_db",
     "name": "greyMatterBackendDb",
     "connector": "mongodb"
+  },
+  "emailDs": {
+    "name": "emailDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "***REMOVED******REMOVED***168@gmail.com",
+          "pass": "hfmlmujdxdmaepuf"
+        }
+      }
+    ]
   }
 }
