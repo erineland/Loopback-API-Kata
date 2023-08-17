@@ -21,7 +21,7 @@ module.exports = {
           rejectUnauthorized: false
         },
         auth: {
-          user: "***REMOVED******REMOVED***168@gmail.com",
+          user: "ErinEland168@gmail.com",
           pass: "hfmlmujdxdmaepuf"
         }
       }
